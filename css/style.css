@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#app {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #011632;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1em;
+}
+
+#app h1 {
+    color: #6d767e;
+}
+
+#app #list-container {
+    min-width: 30%;
+
+    background-color: white;
+
+    border-radius: 10px;
+}
+
+#app #list-container ul {
+    align-self: flex-start;
+
+    list-style-type: none;
+
+    padding: 1em;
+
+    overflow: scroll;
+}
+
+#app #list-container ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: .5em 0;
+}
+
+#app #list-container ul li button {
+    background-color: red;
+
+    border-radius: 5px;
+    border: none;
+
+    padding: .4em;
+
+    color: white;
+}
+
+#app .container input {
+    margin-right: 10px;
+
+    border-radius: 8px;
+
+    border: none;
+
+    height: 20px;
+}
